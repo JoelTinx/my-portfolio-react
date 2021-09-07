@@ -33,6 +33,7 @@ const Skills = () => {
             <li>Vue.js 2+</li>
             <li>React</li>
             <li>Flutter</li>
+            <li>Laravel 6+, CodeIgniter</li>
             <li>Bootstrap 3.x / 4.x / 5.x</li>
             <li>Bulma CSS</li>
             <li>Tailwind CSS</li>

@@ -19,7 +19,7 @@ const Hobbies = () => {
             <div className="icon">
               <em className="fas fa-music"></em>
             </div>
-            <div>
+            <div className="hobby-description">
               Listen music (Pop, Rock, Indie, etc)
             </div>
           </div>

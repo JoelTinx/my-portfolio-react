@@ -13,7 +13,7 @@
   text-align: left;
   line-height: 1.5rem;
   letter-spacing: 1px;
-  color: $primary-color;
+  color: $light-color;
 
   .works {
     margin-top: 16px;
@@ -30,8 +30,8 @@
           font-size: .65rem;
           padding: 0 8px;
           border-radius: 16px;
-          background-color: rgba(125, 125, 125, 0.75);
-          color: white;
+          background-color: $info-color;
+          color: $secondary-color;
           margin: 2px 2px;
           display: inline-block;
         }

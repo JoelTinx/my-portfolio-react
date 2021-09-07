@@ -5,6 +5,8 @@ import ContentContainer from '../../components/ContentContainer/ContentContainer
 import './About.scss'
 
 const About = () => {
+  const myAge = (new Date()).getFullYear() - 1989;
+
   return (
     <ContentContainer>
       <div className="section_title">
@@ -24,7 +26,7 @@ const About = () => {
         </div>
         <div className="topic">
           <h4>Age:</h4>
-          <p>32</p>
+          <p>{ myAge }</p>
         </div>
         <div className="topic">
           <h4>From:</h4>

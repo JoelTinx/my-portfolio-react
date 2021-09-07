@@ -18,8 +18,6 @@ const MenuComponent = () => {
         </li>
       </ul>
     </nav>
-    // <Router>
-    // </Router>
   )
 }
 

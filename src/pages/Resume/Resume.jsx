@@ -52,7 +52,7 @@ const Resume = () => {
             </div>
           </div>
           <div className="work">
-            <h5>Analista Programador @  CSJ Junín - Poder Judicial</h5>
+            <h5>Systems Analyst Programmer @  CSJ Junín - Poder Judicial</h5>
             <p>Apr 2017 - Feb 2020</p>
             <div className="techs">
               <span>Golang</span>
@@ -67,7 +67,7 @@ const Resume = () => {
             </div>
           </div>
           <div className="work">
-            <h5>Analista Programador @ Universidad Continental</h5>
+            <h5>Systems Analyst Programmer @ Universidad Continental</h5>
             <p>Aug 2016 - Dec 2016</p>
             <div className="techs">
               <span>ASP C# MVC</span>
@@ -87,10 +87,11 @@ const Resume = () => {
               <span>MySQL</span>
               <span>PostgreSql</span>
               <span>Bootstrap css</span>
+              <span>MongoDB</span>
             </div>
           </div>
           <div className="work">
-            <h5>Auxiliar Programador @ Caja Municipal de Ahorro y Crédito</h5>
+            <h5>Systems Programmer Assistant @ Caja Municipal de Ahorro y Crédito</h5>
             <p>Nov 2012 - Dec 2013</p>
             <div className="techs">
               <span>Fox Pro</span>

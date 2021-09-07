@@ -21,11 +21,22 @@
     .hobby {
       display: flex;
       align-items: center;
+
       .icon {
+        height: 2.5rem;
+        width: 2.5rem;
+        display: block;
+        box-sizing: border-box;
+        margin-right: 1rem;
+
         em {
           font-size: 2rem;
-          margin: .25rem;
         }
+      }
+
+      .hobby-description {
+        height: 100%;
+        overflow-wrap: break-word;
       }
     }
   }

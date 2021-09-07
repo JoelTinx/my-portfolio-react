@@ -37,7 +37,8 @@
           left: calc(50% - 100px);
   
           .photo {
-            border-radius: 100%;
+            border-radius: 50%;
+            filter: grayscale(1);
           }
         }
   
@@ -72,12 +73,12 @@
           margin-top: 16px;
           a {
             margin: 0 .5rem;
-            color: #333;
+            color: $dark-color;
             em {
               font-size: 1.15rem;
   
               &:hover { 
-                color: steelblue;
+                color: $info-color;
                 cursor: pointer;
               }
             }

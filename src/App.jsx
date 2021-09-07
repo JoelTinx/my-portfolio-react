@@ -27,7 +27,12 @@ function App() {
           <div className="content-left">
             <div className="content-top">
               <div className="photo-container">
-                <img src="/assets/img/joeltinx.jpg" alt="Joel Tinx" className="photo"/>
+                <img 
+                  src="/assets/img/joeltinx.jpg"
+                  alt="Joel Tinx"
+                  className="photo"
+                  loading="lazy"
+                />
               </div>
             </div>
             <div className="content-bottom">

@@ -1,0 +1,48 @@
+{
+  "MENU": {
+    "HOME": "Home",
+    "WORKS": "Portfolio",
+    "CONTACT": "Contact",
+    "RESUME": "Resume",
+    "HOBBIES": "Hobbies",
+    "SKILLS": "Skills"
+  },
+  "HOME": {
+    "TITLE": "Hi, I'm Dennis Tinoco",
+    "SUB_TITLE": "Full Stack Developer"
+  },
+  "ABOUT_ME": {
+    "TITLE": "About me",
+    "DESCRIPTION": "I am a professional with several years of experience developing software and wide domain of different programming languages such as: Golang, JavaScript, Node.js, PHP, C#, java, c++, fox pro, in addition to knowledge of design and database development using: MsSQL Server, MySQL, PostgreSQL, MongoDB, SQLite.",
+    "PROFESSION_LABEL": "Profession",
+    "PROFESSION": "Systems Engineer",
+    "UNIVERSITY": "Universidad Nacional del Centro del Perú",
+    "AGE": "Age",
+    "NATIONALITY": "Nationality"
+  },
+  "SKILLS": {
+    "TITLE": "Skills",
+    "DESCRIPTION": "",
+    "PROGRAMMING_LANGUAGES": "Programming languages",
+    "FRAMEWORKS_AND_LIBRARIES": "Frameworks and libraries",
+    "DATABASES": "Databases"
+  },
+  "HOBBIES": {
+    "TITLE": "Hobbies",
+    "SERIES_AND_MOVIES": "See series and movies",
+    "LISTEN_MUSIC": "Listen music (Pop, Rock, Indie, etc)",
+    "READ": "Read short books",
+    "FOOD": "Eat and taste new dishes",
+    "TRAVEL": "Visit new places (travel)"
+  },
+  "CONTACT": {
+    "TITLE": "GET IN TOUCH",
+    "DESCRIPTION": "Although I'm not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!"
+  },
+  "RESUME": {
+    "TITLE": "Where I’ve Worked"
+  },
+  "WORKS": {
+    "TITLE": "Portfolio"
+  }
+}

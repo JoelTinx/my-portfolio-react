@@ -1,0 +1,41 @@
+@import '../../colors';
+
+.section_title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  text-align: center;
+  color: $primary-color;
+}
+
+.section_content {
+  margin-top: 36px;
+  font-size: 1.05rem;
+  text-align: left;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  color: $primary-color;
+
+  .works {
+    margin-top: 16px;
+
+    .work {
+      margin: 20px 0;
+      p {
+        font-style: italic;
+        font-size: .85rem;
+      }
+      .techs {
+        margin-bottom: 1.5rem;
+        span {
+          font-size: .65rem;
+          padding: 0 8px;
+          border-radius: 16px;
+          background-color: rgba(125, 125, 125, 0.75);
+          color: white;
+          margin: 2px 2px;
+          display: inline-block;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import '../../colors';
+
+.section_title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  text-align: center;
+  color: $primary-color;
+}
+
+.section_content {
+  margin-top: 36px;
+  font-size: 1.05rem;
+  text-align: left;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  color: $primary-color;
+
+  .skill {
+    margin-top: 16px;
+  }
+}

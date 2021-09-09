@@ -27,8 +27,8 @@ const Skills = () => {
         <div className="skill">
           <h4>Frameworks and libraries</h4>
           <ul>
-            <li>Express js / Adonis js / Nest js</li>
-            <li>Gin / Iris / Echo / Beego / Fiber / Hugo</li>
+            <li>Express js / Nest js</li>
+            <li>Gin / Echo / Fiber / Hugo</li>
             <li>Angular.js / Angular 8+</li>
             <li>Vue.js 2+</li>
             <li>React</li>

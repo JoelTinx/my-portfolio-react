@@ -91,7 +91,7 @@ const Resume = () => {
             </div>
           </div>
           <div className="work">
-            <h5>Systems Programmer Assistant @ Caja Municipal de Ahorro y Crédito</h5>
+            <h5>Systems Programmer Assistant @ Caja Municipal de Ahorro y Crédito Huancayo</h5>
             <p>Nov 2012 - Dec 2013</p>
             <div className="techs">
               <span>Fox Pro</span>

@@ -47,7 +47,7 @@ const Hobbies = () => {
               <em className="fas fa-utensils"></em>
             </div>
             <div>
-              Eat and taste new dishes
+              Eating and tasting new dishes
             </div>
           </div>
 
@@ -56,7 +56,7 @@ const Hobbies = () => {
               <em className="fas fa-plane"></em>
             </div>
             <div>
-              Visit new places (travel)
+              Know new places (travel)
             </div>
           </div>
 

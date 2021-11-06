@@ -50,20 +50,26 @@ const Works = () => {
 
           <div className="work">
             <div>
-              <a className="anchor" href="http://sopator.260mb.net/" target="_blank">
-                <p>Sopator</p>
+              <p>Sopator</p>
+            </div>
+            <div className="picture">
+              <a href="http://sopator2.netlify.app/">
+                <img src="/assets/img/sopator.jpg" alt="sopator" loading="lazy" />
               </a>
             </div>
           </div>
 
           <div className="work">
             <div>
-              <a className="anchor" href="https://github.com/JoelTinx/GoCruz" target="_blank">
-                <p>GoCruz</p>
+              <p>GoCruz</p>
+            </div>
+            <div className="picture">
+              <a href="http://gocruz.herokuapp.com/">
+                <img src="/assets/img/gocruz.jpg" alt="gocruz" loading="lazy" />
               </a>
             </div>
           </div>
-      
+
         </div>
       </div>
     </ContentContainer>

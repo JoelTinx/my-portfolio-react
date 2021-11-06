@@ -15,14 +15,35 @@ import WorksPage from './pages/Works/Works'
 
 import './App.scss'
 
-function App() {
+const App = () => {
+
+  const socialLinks = [
+    {
+      name: 'LinkedIn',
+      url: 'https://pe.linkedin.com/in/dennistinoco',
+      icon: 'fab fa-linkedin-in',
+    },
+    {
+      name: 'GitHub',
+      url: 'https://github.com/JoelTinx',
+      icon: 'fab fa-github',
+    },
+    {
+      name: 'Twitter',
+      url: 'https://twitter.com/joeltinx',
+      icon: 'fab fa-twitter',
+    },
+    {
+      name: 'YouTube',
+      url: 'https://twitter.com/joeltinx',
+      icon: 'fab fa-youtube',
+    },
+  ]
 
   return (
     <Router>
       <MenuComponent />
-
       <div className="container">
-
         <div className="content">
           <div className="content-left">
             <div className="content-top">
@@ -39,26 +60,23 @@ function App() {
               <p className="title">
                 Hi, I'm Dennis Tinoco
               </p>
-
               <p className="subtitle">
                 FullStack Developer
               </p>
-
               <div className="icons">
-                <a href="https://pe.linkedin.com/in/dennistinoco" target="_blank">
-                  <em className="fab fa-linkedin-in"></em>
-                </a>
-                <a href="https://github.com/JoelTinx" target="_blank">
-                  <em className="fab fa-github"></em>
-                </a>
-                <a href="https://twitter.com/joeltinx" target="_blank">
-                  <em className="fab fa-twitter"></em>
-                </a>
-                <a href="https://twitter.com/joeltinx" target="_blank">
-                  <em className="fab fa-youtube"></em>
-                </a>
+                {
+                  socialLinks.map((socialLink, index) => (
+                    <a 
+                      key={`social-${index}`}
+                      href={socialLink.url}
+                      target="_blank"
+                      className="icon"
+                    >
+                      <em className={socialLink.icon}></em>
+                    </a>
+                  ))
+                }
               </div>
-          
             </div>
           </div>
           <div className="content-right">
@@ -72,9 +90,7 @@ function App() {
             </Switch>
           </div>
         </div>
-
       </div>
-
     </Router>
   )
 }

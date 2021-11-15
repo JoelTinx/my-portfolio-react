@@ -1,20 +1,32 @@
 import React from 'react'
 
-import { NavLink, BrowserRouter as Router } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 import './Menu.scss'
+
+const CustomNavLink = ({ to, children, ...props }) => {
+  return (
+    <NavLink
+      {...props}
+      to={to}
+      className={({ isActive }) => `${isActive ? 'active' : ''}`}
+    >
+      { children }
+    </NavLink>
+  )
+}
 
 const MenuComponent = () => {
   return (
     <nav>
       <ul>
         <li>
-          <NavLink exact to="/" activeClassName="active">About</NavLink>
-          <NavLink exact to="/skills" activeClassName="active">Skills</NavLink>
-          <NavLink exact to="/resume" activeClassName="active">Resume</NavLink>
-          <NavLink exact to="/works" activeClassName="active">Works</NavLink>
-          <NavLink exact to="/hobbies" activeClassName="active">Hobbies</NavLink>
-          <NavLink exact to="/contact" activeClassName="active">Contact</NavLink>
+          <CustomNavLink to="/" >About</CustomNavLink>
+          <CustomNavLink to="/skills" >Skills</CustomNavLink>
+          <CustomNavLink to="/resume" >Resume</CustomNavLink>
+          <CustomNavLink to="/works" >Works</CustomNavLink>
+          <CustomNavLink to="/hobbies" >Hobbies</CustomNavLink>
+          <CustomNavLink to="/contact" >Contact</CustomNavLink>
         </li>
       </ul>
     </nav>

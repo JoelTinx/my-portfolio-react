@@ -1,8 +1,8 @@
 import React from 'react'
 import { 
-  BrowserRouter as Router,
+  BrowserRouter,
   Route,
-  Switch
+  Routes
 } from 'react-router-dom'
 
 import MenuComponent from './components/Menu/Menu'
@@ -41,7 +41,7 @@ const App = () => {
   ]
 
   return (
-    <Router>
+    <BrowserRouter>
       <MenuComponent />
       <div className="container">
         <div className="content">
@@ -80,18 +80,18 @@ const App = () => {
             </div>
           </div>
           <div className="content-right">
-            <Switch>
-              <Route path="/" exact component={AboutPage} />
-              <Route path="/contact" exact component={ ContactPage } />
-              <Route path="/hobbies" exact component={ HobbiesPage } />
-              <Route path="/resume" exact component={ ResumePage } />
-              <Route path="/skills" exact component={ SkillsPage } />
-              <Route path="/works" exact component={ WorksPage } />
-            </Switch>
+            <Routes>
+              <Route path="/" element={ <AboutPage />} />
+              <Route path="/contact" element={ <ContactPage /> } />
+              <Route path="/hobbies" element={ <HobbiesPage /> } />
+              <Route path="/resume" element={ <ResumePage /> } />
+              <Route path="/skills" element={ <SkillsPage /> } />
+              <Route path="/works" element={ <WorksPage /> } />
+            </Routes>
           </div>
         </div>
       </div>
-    </Router>
+    </BrowserRouter>
   )
 }
 

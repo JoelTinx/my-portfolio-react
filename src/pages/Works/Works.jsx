@@ -16,57 +16,57 @@ const Works = () => {
         <div className="projects">
 
           <div className="work">
-            <div>
-              <p>Website CSJJunin</p>
-            </div>
             <div className="picture">
               <a href="http://csjjunin.gob.pe/" target="_blank">
-                <img src="/assets/img/web_corte_junin.jpg" alt="aweb corte junin" loading="lazy" />
+                <img src="/assets/img/web_corte_junin.jpg" alt="web corte junin" loading="lazy" />
               </a>
+            </div>
+            <div className="work__container">
+              <p>Website CSJJunin</p>
             </div>
           </div>
 
           <div className="work">
-            <div>
-              <p>Application CSJJunin (Playstore)</p>
-            </div>
             <div className="picture">
               <a href="https://play.google.com/store/apps/details?id=pe.gob.csjjunin.app.cortejunin" target="_blank">
                 <img src="/assets/img/app_corte_junin.jpg" alt="app corte junin" loading="lazy" />
               </a>
             </div>
+            <div className="work__container">
+              <p>Application CSJJunin</p>
+            </div>
           </div>
 
           <div className="work">
-            <div>
-              <p>Application IMC Calculator (AppGallery)</p>
-            </div>
             <div className="picture">
-              <a href="#">
-                <img src="/assets/img/imc_calculator.jpg" alt="app corte junin" loading="lazy" />
+              <a href="https://appgallery.huawei.com/app/C102043701" target="_blank">
+                <img src="/assets/img/imc_calculator.jpg" alt="imc calculator" loading="lazy" />
               </a>
             </div>
+            <div className="work__container">
+              <p>IMC Calculator (AppGallery)</p>
+            </div>
           </div>
 
           <div className="work">
-            <div>
+            <div className="picture">
+              <a href="http://sopator2.netlify.app/" target="_blank">
+                <img src="/assets/img/sopator.jpg" alt="sopator 2" loading="lazy" />
+              </a>
+            </div>
+            <div className="work__container">
               <p>Sopator</p>
             </div>
-            <div className="picture">
-              <a href="http://sopator2.netlify.app/">
-                <img src="/assets/img/sopator.jpg" alt="sopator" loading="lazy" />
-              </a>
-            </div>
           </div>
 
           <div className="work">
-            <div>
-              <p>GoCruz</p>
-            </div>
             <div className="picture">
-              <a href="http://gocruz.herokuapp.com/">
+              <a href="http://gocruz.herokuapp.com/" target="_blank">
                 <img src="/assets/img/gocruz.jpg" alt="gocruz" loading="lazy" />
               </a>
+            </div>
+            <div className="work__container">
+              <p>Go Cruz</p>
             </div>
           </div>
 

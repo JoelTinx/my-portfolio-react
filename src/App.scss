@@ -37,8 +37,7 @@
   
           .photo {
             border-radius: 50%;
-            border: 2px solid $light-color;
-            // filter: grayscale(1);
+            box-shadow: 2px 2px 4px #334;
           }
         }
   

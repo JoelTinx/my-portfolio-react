@@ -18,10 +18,11 @@ const Skills = () => {
           <ul>
             <li>JavaScript, TypeScript, Node.js*</li>
             <li>Golang (Go)</li>
+            <li>Rust</li>
             <li>C#</li>
             <li>PHP</li>
             <li>Dart</li>
-            <li>HTML5, CSS3</li>
+            <li>* HTML5, CSS3</li>
           </ul>
         </div>
         <div className="skill">
@@ -29,7 +30,7 @@ const Skills = () => {
           <ul>
             <li>Express js / Nest js</li>
             <li>Gin / Echo / Fiber / Hugo</li>
-            <li>Angular.js / Angular 8+</li>
+            <li>Angular 8+</li>
             <li>Vue.js 2+</li>
             <li>React</li>
             <li>Flutter</li>
@@ -47,6 +48,14 @@ const Skills = () => {
             <li>MySQL / MariaDB</li>
             <li>MongoDB</li>
             <li>SQLite</li>
+          </ul>
+        </div>
+        <div className="skill">
+          <h4>Others</h4>
+          <ul>
+            <li>Scrum</li>
+            <li>Kamban</li>
+            <li>XP</li>
           </ul>
         </div>
       </div>

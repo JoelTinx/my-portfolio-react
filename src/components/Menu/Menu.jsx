@@ -22,12 +22,22 @@ const MenuComponent = () => {
       <ul>
         <li>
           <CustomNavLink to="/" >About</CustomNavLink>
-          <CustomNavLink to="/skills" >Skills</CustomNavLink>
-          <CustomNavLink to="/resume" >Resume</CustomNavLink>
-          <CustomNavLink to="/works" >Works</CustomNavLink>
-          <CustomNavLink to="/hobbies" >Hobbies</CustomNavLink>
-          <CustomNavLink to="/contact" >Contact</CustomNavLink>
         </li>
+        <li>
+          <CustomNavLink to="/skills" >Skills</CustomNavLink>
+          </li>
+        <li>
+          <CustomNavLink to="/resume" >Resume</CustomNavLink>
+          </li>
+        <li>
+          <CustomNavLink to="/works" >Works</CustomNavLink>
+          </li>
+        <li>
+          <CustomNavLink to="/hobbies" >Hobbies</CustomNavLink>
+          </li>
+        <li>
+          <CustomNavLink to="/contact" >Contact</CustomNavLink>
+          </li>
       </ul>
     </nav>
   )

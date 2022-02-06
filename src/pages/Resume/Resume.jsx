@@ -15,11 +15,13 @@ const Resume = () => {
       <div className="section_content">
         <div className="works">
           <div className="work">
-            <h5>Mobile Frontend Developer @ AUNA</h5>
+            <h5>Software Engineer @ AUNA</h5>
             <p>Jan 2021 - Present</p>
             <div className="techs">
               <span>Ionic</span>
               <span>Angular</span>
+              <span>React</span>
+              <span>NextJs</span>
               <span>Stencil</span>
               <span>Storybook</span>
               <span>Monorepos NX</span>

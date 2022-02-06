@@ -12,37 +12,36 @@
     height: calc(80vh);
     width: calc(80vw);
     border: 1px solid $primary-color;
-    border-radius: 16px 0 0 16px;
-    
+    border-radius: 16px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-
+    overflow: hidden;
 
     .content-left {
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
       box-shadow: 2px 0 2px 0 rgba(0, 0, 0, 0.2);
-    
+
       .content-top {
         border-radius: 16px 0 0 0;
         height: 100%;
         background-image: url('/assets/img/portada.jpg');
         position: relative;
-  
+
         .photo-container {
           position: absolute;
           bottom: -100px;
           left: calc(50% - 100px);
-  
+
           .photo {
             border-radius: 50%;
             box-shadow: 2px 2px 4px #334;
           }
         }
-  
+
       }
-      
+
       .content-bottom {
         height: 100%;
         padding: 20px;
@@ -51,7 +50,7 @@
         justify-content: center;
         align-items: center;
         padding-top: 36px;
-  
+
         .title {
           font-size: 1.5rem;
           font-weight: 500;
@@ -59,7 +58,7 @@
           white-space: pre-wrap;
           color: $primary-color;
         }
-        
+
         .subtitle {
           margin-top: 4px;
           font-size: 1.25rem;
@@ -75,7 +74,7 @@
             color: $dark-color;
             em {
               font-size: 1.15rem;
-  
+
               &:hover { 
                 color: $info-color;
                 cursor: pointer;
@@ -154,5 +153,13 @@
       }
 
     }
+  }
+
+  img {
+    filter: grayscale(0);
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
   }
 }

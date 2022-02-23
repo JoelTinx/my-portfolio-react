@@ -11,8 +11,9 @@ nav {
       list-style: none;
       a {
         text-decoration: none;
-        color:  $light-color;
-        font-size: .85em;
+        color: $dark-color;
+        font-size: 0.9em;
+        font-weight: 500;
         padding: 10px 10px;
         &:hover {
           color: #333;

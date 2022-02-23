@@ -5,8 +5,11 @@
 }
 
 @font-face {
-  font-family: Poppins;
-  src: url('/assets/fonts/Poppins-Regular.ttf');
+  font-family: 'Poppins';
+  font-style: normal;
+  src: local('Poppins Regular'),
+    local('Poppins-Regular') url('/assets/fonts/Poppins-Regular.ttf');
+  font-display: swap;
 }
 
 html {
@@ -15,9 +18,7 @@ html {
 }
 
 @media only screen and (max-width: 600px) {
-
   html {
     font-size: 12px;
   }
-
 }

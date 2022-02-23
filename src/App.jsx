@@ -52,6 +52,8 @@ const App = () => {
                   src="/assets/img/joeltinx.jpg"
                   alt="Joel Tinx"
                   className="photo"
+                  height={200}
+                  width={200}
                   loading="lazy"
                 />
               </div>
